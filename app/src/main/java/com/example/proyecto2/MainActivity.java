@@ -30,6 +30,14 @@ FrameLayout fragment;
                     mostraFragmento(new fragmentoSuma());
                     item.setChecked(true);
                 }
+                if (item.getItemId()==R.id.menu_2){
+                    mostraFragmento(new fragmentoMulti());
+                    item.setChecked(true);
+                }
+                if (item.getItemId()==R.id.menu_3){
+                    mostraFragmento(new fragmento_divi());
+                    item.setChecked(true);
+                }
                 return false;
             }
         });
